@@ -79,7 +79,7 @@ Exemplo de body para cadastro de cidade e estado no formato de json:
 | localhost:3000/cidades/ | GET | Nome da cidade não informado<br> Resposta: (204) Nome da cidade não informado|
 
 Exemplo de url para consulta de cidade pelo nome: 
-```http
+```
 localhost:3000/cidades/Balneario%20Camboriu
 ```
 resposta se tudo ocorrer bem:
@@ -109,7 +109,7 @@ __v: 0
 | localhost:3000/uf/ | GET | Resposta: (204) Estado não informado |
 
 Exemplo de url para consulta de cidade pelo estado: 
-```http
+```
 localhost:3000/uf/SC
 ```
 
@@ -138,7 +138,7 @@ resposta se tudo ocorrer bem:
 | localhost:3000/clients/ | GET | Resposta: (204) Informe o nome do cliente |
 
 Exemplo de url para consulta de cliente pelo nome: 
-```http
+```
 localhost:3000/clients/Ang
 ```
 
@@ -171,7 +171,7 @@ resposta se tudo ocorrer bem:
 | localhost:3000/clients/id/ | GET | Resposta: (204) Informe o Id do cliente |
 
 Exemplo de url para consulta de cliente pelo Id: 
-```http
+```
 localhost:3000/clients/id/6421f253d6f81d35296dded5
 ```
 
@@ -203,7 +203,7 @@ resposta se tudo ocorrer bem:
 | localhost:3000/clients/:parâmetro | DELETE | Remove cliente pelo Id <hr> Obrigatórios: Id <hr> As informações devem serem passadas na url da aplicação |
 
 Exemplo de url para remoção de cliente pelo Id: 
-```http
+```
 localhost:3000/clients/6421f253d6f81d35296dded5
 ```
 
@@ -227,7 +227,7 @@ resposta se tudo ocorrer bem:
 | localhost:3000/clients/:parâmetro | PUT | Altera o nome do cliente pelo Id <hr> Obrigatórios: Id <hr> Deve ser passado na url da aplicação o id para encontrar o cliente e as alterações deve ser passadas no body da aplicação <br> 1 ou mais campos podem ser alterados (name, sexo, dataNascimento, idade, cidadeAtual) se não for passado nenhum campo e retorna um Bad Request |
 
 Exemplo de url para alteração de nome do cliente pelo Id: 
-```http
+```
 localhost:3000/clients/6421f253d6f81d35296dded5
 ```
 body da requisição:
