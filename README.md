@@ -224,7 +224,7 @@ resposta se tudo ocorrer bem:
 
 | Rota | Método | Descrição |
 | --- | --- | --- |
-| localhost:3000/clients/:parâmetro | PUT | Altera o nome do cliente pelo Id <hr> Obrigatórios: Id <hr> Deve ser passado na url da aplicação o id para encontrar o cliente e as alterações deve ser passadas no body da aplicação <br> 1 ou mais campos podem ser alterados (name, sexo, dataNascimento, idade, cidadeAtual) se não for passado nenhum campo e retorna um Bad Request |
+| localhost:3000/clients/:parâmetro | PUT | Altera o nome do cliente pelo Id <hr> Obrigatórios: Id <hr> Deve ser passado na url da aplicação o id para encontrar o cliente e as alterações deve ser passadas no body da aplicação <br>1 ou mais campos podem ser alterados (name, sexo, dataNascimento, idade, cidadeAtual) se não for passado nenhum campo e retorna um Bad Request |
 
 Exemplo de url para alteração de nome do cliente pelo Id: 
 ```
